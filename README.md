@@ -8,17 +8,13 @@ A Look at Sports Betting Action From UK-Based Gambling House, "BetFair"
 
 
 **Table of Contents**
-1. Introduction to the Data
-  - Background
-  - The Data
-2. Exploratory Data Analysis
-  - Sports
-  - Events
-3. Conclusion
+1. Background
+2. The Data
+3. Visualization
 
 
 
-## Introduction to the Data
+
 #### Background
 In the world of sports gambling, there are several players. There are US-based platforms within states who have voted for legal action. There are troves of bookies taking action in groupchats. There are off-shore networks that cater to the world. States that have fully voted and created an operating opportunity for gambling houses include:
   - Delaware
@@ -68,3 +64,16 @@ The data starts as a CSV file on kaggle. Columns utilized are as follows:
 2. Second step was to replace the integer for SPORTS_ID with a string describing the actual sport. This script is sportsID_name_fix.py.
 3. Third step was to create my analysis. I grouped the data by sport, event, bet type, bet option, odds, win flag, and summed up total volume and number of bets for each. I also grouped by sport and got the average bet.
 
+#### Visualization
+##### Sample Cleaned Data
+![Image description](https://github.com/JacobGraphs/SportsBetting/blob/master/images/sample.png)
+##### Data Organized by Top Average Bet
+![Image description](https://github.com/JacobGraphs/SportsBetting/blob/master/images/sports_averagebet.png)
+##### Total Volume Gambled by Sport: Low, Mid, High
+![Image description](https://github.com/JacobGraphs/SportsBetting/blob/master/images/revenues.png)
+##### Return in % of Bet Volume Paid Out and Total Profit/Loss by Sport: All
+![Image description](https://github.com/JacobGraphs/SportsBetting/blob/master/images/all.png)
+##### Return in % of Bet Volume Paid Out and Total Profit by Sport: Low, Mid
+![Image description](https://github.com/JacobGraphs/SportsBetting/blob/master/images/low_mid_gain.png)
+##### Return in % of Bet Volume Paid Out and Total Loss by Sport: Low, Mid
+![Image description](https://github.com/JacobGraphs/SportsBetting/blob/master/images/low_mid_loss.png)
