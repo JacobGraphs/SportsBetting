@@ -39,7 +39,8 @@ What does the betting breakdown look like in an international market? American F
 Sports Betting House, BetFair, claims to be the largest online betting exchange. They are based out of West London, UK and Clonskeagh, Dublin. For their highroller customers, those with total dollars gambled or total losses exceeding an arbitrary amount, there is access to betting data. The data collected consists of information on sport, event, the kind of bet placed, the selection of that bet, the odds by which that bet is met, the volume of the action, and the number of bets for the first week of September, 2014. Some extraneous information was gathered from outside sources.
 
 ##### Explanation of Data's Structure
-https://www.kaggle.com/zygmunt/betfair-sports
+  https://www.kaggle.com/zygmunt/betfair-sports   
+  
 The data starts as a CSV file on kaggle. Columns utilized are as follows:
 - SPORTS_ID : an integer representing a series of sports
 - FULL_DESCRIPTION : a string describing a full event 
