@@ -11,6 +11,7 @@ A Look at Sports Betting Action From UK-Based Gambling House, "BetFair"
 1. Background
 2. The Data
 3. Visualization
+4. Assessment
 
 
 
@@ -78,3 +79,13 @@ The data starts as a CSV file on kaggle. Columns utilized are as follows:
 ![Image description](https://github.com/JacobGraphs/SportsBetting/blob/master/images/low_mid_gain.png)
 ##### Return in % of Bet Volume Paid Out and Total Loss by Sport: Low, Mid
 ![Image description](https://github.com/JacobGraphs/SportsBetting/blob/master/images/low_mid_loss.png)
+##### Sports by Average Bet Size Per Bet
+![Image description](https://github.com/JacobGraphs/SportsBetting/blob/master/images/averages.png)
+
+
+#### Assessment of Data
+One large takeaway from this visualization is the average better is likely not an individual, but an institution. For the largest volume sports, which then have the highest average bet amount, we likely find large betting organizations placing their action, heavily inflating the metric meant to look at hobby gamblers.
+The lowest revenue per ticket sport should be no surprise as Greyhound Racing. This kind of game has large volume, many kinds of outcomes, and anyone can understand what's happening.
+Most average bets float around $50 per ticket, with Greyhound hovering near $7 and Cricket at $400+
+
+A concern I see while looking at this data is the propensity for match-fixing. Tennis is number 2 in average bet and number 1 in total volume gambled. There are so many matches, with so much money being exchanged over the results, that it seems naive to assume game integrity sits high. While a sports betting platform can exist without regard for winning players, I'd be incredibly wary as a game operator of high average bets and the incentives to cheat.
